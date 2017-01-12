@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Add Data</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+<div class="contenidoindex">
+<h1 class="animated bounceInDown">Agregar disciplinas</h1>
+
+<fieldset>
+<section>
+
+	<section>
+	<nav>
+		<a href="index.html" style="font-size: 30px;">Inicio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+		<a href="add.html" style="font-size: 30px;">Agregar atletas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+		<a href="VER.php" style="font-size: 30px;">Ver atletas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+		<a href="addDIS.html" style="font-size: 30px;">Agregar Disciplina</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+		<a href="verDIS.php" style="font-size: 30px;">Ver disciplinas</a>
+	</nav>
+</section>
+
+<section>
+	<form class="animated rotateInUpRight" id="formadd" action="procesoDisciplinas.php" method="post">
+		<table width="100%" border="0">
+
+			<tr> 
+				<td>Nombre disciplina -></td>
+				<td><input type="text" name="nombre"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="Submit" value="Agregar"></td>
+				<td><input type="reset" name="cancelar" value="cancelar"></td>
+			</tr>
+		</table>
+	</form>
+	</section>
+
+	</section>
+	</fieldset>
+	</div>
+</body>
+</html>
