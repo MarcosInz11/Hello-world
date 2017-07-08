@@ -1,3 +1,3 @@
 # MarcosInzaurralde.github.io
 Este es un nuevo proyecto de Marcos Inzaurralde
-Sistema CRUD
+Sistema CRUD de registro para competencias de Atletismo
