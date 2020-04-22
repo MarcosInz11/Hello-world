@@ -1,2 +1,2 @@
 # MarcosInzaurralde.github.io
-Sistema CRUD de registro para competencias de Atletismo
+Sistema CRUD para competencias de Atletismo
